@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <main>
+        <div class="row">
+            <div class="col-md-12">
+               
+                <div class="card border-info mb-3">
+                    <div class="card-header titulo">Calculadora de IMC</div>
+                    <div class="card-body">
+
+                        <div class="form-group">
+                          <label for="inputEstatura">Estatura</label>
+                          <input type="number" class="form-control" id="Estatura" step="0.01" autofocus placeholder="Ingrese su estatura en metros">
+                          <small id="estaturaHelp" class="form-text text-muted">Ejemplo: 1.75</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputPeso">Peso</label>
+                          <input  type="number" class="form-control" id="Peso" step="0.01" placeholder="Ingrese su peso en kilogramos">
+                          <small id="pesoHelp" class="form-text text-muted">Ejemplo: 75</small>
+                        </div>
+                        
+                        <div id="botones">
+                          <p><button id='Boton'  class="btn btn-primary" >Calcular</button> </p>
+                          <p><button id='BotonCancelar'  class="btn btn-warning" >Ingresar nuevos datos</button></p>
+                        </div>
+                        
+
+                      
+                    </div>
+                    
+                    <div id="resultado">
+                      
+                    </div>
+
+                    <img src="images/imcimage.png" alt="" class="img-fluid rounded">
+
+                  </div>
+            </div>
+        </div>
+        
+
+    </main>
+    
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

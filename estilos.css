@@ -1,0 +1,30 @@
+main{
+    width: 60%;
+    margin: 0 auto;
+    /*border: 1px solid #26418f;*/
+}
+
+.titulo{
+    background: #26418f;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#botones{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#resultado{
+    width: 85%;
+    margin: 0 auto;
+    padding: 2em;
+}
+h3{
+    color: #26418f;
+}
